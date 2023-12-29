@@ -23,7 +23,7 @@ public class BinarySearchSorted {
         System.out.print("\nEnter your target value:");
         int target = input.nextInt();
         int beg=0;
-        int end= array.length;
+        int end= array.length-1;
         int mid = (beg+end)/2;
 
        // there is an exception while data is not found from the array
